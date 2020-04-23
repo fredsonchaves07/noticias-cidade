@@ -16,10 +16,34 @@ body{
 
 header {
     height: 180px;
-    background: url('../img/imagens/detalhe-topo.png') no-repeat right;
+    background: url(../img/imagens/detalhe-topo.png) no-repeat right;
     width: 750px;
 }
 
 header img{
     margin-top: 24px;
+}
+
+header .link-navegacao{
+    background-color: #b10333;
+    margin-top: 40px;
+    max-width: 600px;
+    height: 40px;
+}
+
+.link-navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 11px 17px;
+    display: inline-block;
+    background: url(../img/imagens/divisor.png) no-repeat left center;
+    font-size: 15px;
+}
+
+.link-navegacao a:first-child{
+   background: none;
+}
+
+.link-navegacao a.active{
+    background-color: #de003e;
 }
