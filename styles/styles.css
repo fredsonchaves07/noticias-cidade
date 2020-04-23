@@ -26,7 +26,7 @@ header img{
 
 header .link-navegacao{
     background-color: #b10333;
-    margin-top: 40px;
+    margin-top: 30px;
     max-width: 600px;
     height: 40px;
 }
@@ -46,4 +46,12 @@ header .link-navegacao{
 
 .link-navegacao a.active{
     background-color: #de003e;
+}
+
+.link-navegacao a.active:hover{
+    color: white;
+}
+
+.link-navegacao a:hover{
+    color: #69001d;
 }
