@@ -38,6 +38,7 @@ header .link-navegacao{
     display: inline-block;
     background: url(../img/imagens/divisor.png) no-repeat left center;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .link-navegacao a:first-child{
